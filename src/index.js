@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom/client';
 /*Importacion del app que es el componente 
 que contiene todo el contenido que se muestra en la pagina*/
 import Header from './Plantillas/header';
+import Principal from './Componentes/principal';
 import "./Css/root.css";
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -17,6 +18,7 @@ root.render(
   //El React.StricMode sirve para poder detectar problemas posibles en el codigo
   <React.StrictMode>
     <Header />
+    <Principal />
   </React.StrictMode>
 );
 

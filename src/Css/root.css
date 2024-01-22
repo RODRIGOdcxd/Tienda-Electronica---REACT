@@ -1,8 +1,15 @@
 *{
+  /*Colocar a todos los elementos del DOM con 0 de padding y margin,
+  para que despues sea configurado al deseo de cada uno.*/
   padding: 0;
   margin: 0;
+  /*Colocamos la fuente del texto*/
+  font-family: sans-serif;
 }
 #root{
-  width: 100vw;
-  box-sizing: border-box;
+  /*Indicamos al body que tenga el tamaño completo del ancho visible*/
+  /*width: 100vw;*/
+  /*Color del fondo osea del body*/
+  position: relative;
+  background-color: #D0E1F9;
 }
